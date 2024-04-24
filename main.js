@@ -18,6 +18,7 @@ const listElement = document.querySelector('ul');
 let i = 0;
 while (i < listaSpesa.length) {
     const element = listaSpesa[i];
+    listElement.innerHTML += `<li>${element}</li>`
     console.log(element)
     i++
 }
